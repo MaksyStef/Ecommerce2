@@ -1,0 +1,42 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+      {
+              "type": "shell",
+              "command": "python3 backend/manage.py runserver",
+              "problemMatcher": [],
+              "label": "Django: start - backend",
+              "detail": "django-manage runserver",
+              "runOptions": { "runOn": "folderOpen" },
+              "presentation": {
+                  "echo": true,
+                  "reveal": "never",
+                  "focus": false,
+                  "panel": "shared",
+                  "showReuseMessage": true,
+                  "clear": false,
+                  "group": "Run Project",
+              },
+          },
+          {
+              "type": "npm",
+              "script": "start",
+              "path": "frontend",
+              "problemMatcher": [],
+              "label": "npm: start - frontend",
+              "detail": "react-scripts start",
+              "runOptions": { "runOn": "folderOpen" },
+              "presentation": {
+                  "echo": true,
+                  "reveal": "never",
+                  "focus": false,
+                  "panel": "shared",
+                  "showReuseMessage": true,
+                  "clear": false,
+                  "group": "Run Project"
+              }
+          },
+    ]
+  }
