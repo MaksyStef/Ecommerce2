@@ -1,6 +1,0 @@
-{
-    "files.autoSave": "onWindowChange",
-    "editor.fontSize": 12,
-    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": false,
-    "git.ignoreLimitWarning": true
-}
